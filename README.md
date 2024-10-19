@@ -8,6 +8,6 @@ My own home network created for safety and educational purposes
   <li> Windows 10 machine - host (main machine for work) </li>
   <li> CentOS VM - website hosting, file sharing </li>
   <li> Kali linux VM - HTB/THM practice and university courses </li>
-  <li> Raspberry Pi 8GB RAM -  OpenMediaVault NAS Server (256GB SSD) </li>
-  <li> Raspberry Pi 2GB RAM - Ubuntu Server with PI-Hole (DNS) </li>
+  <li> Raspberry Pi 8GB RAM - OpenMediaVault NAS Server (256GB SSD) </li>
+  <li> Raspberry Pi 2GB RAM - PI-Hole (DNS) </li>
 </ul>
