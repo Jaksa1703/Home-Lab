@@ -1,13 +1,22 @@
 # Home-Lab
-My own home network created for safety and educational purposes
+home network created as a project for my engineering thesis.
 <ul>
-  <li> Router provided by ISP </li>
-  <li> Server rack (6U) </li>
-  <li> 12 ports patchpanel (stp 5e cables) </li>
-  <li> TP Link TL-SG108E Gigabit Ethernet- managed switch </li>
-  <li> Windows 10 machine - host (main machine for work) </li>
-  <li> CentOS VM - website hosting, file sharing </li>
-  <li> Kali linux VM - HTB/THM practice and university courses </li>
-  <li> Raspberry Pi 8GB RAM - OpenMediaVault NAS Server (256GB SSD) </li>
-  <li> Raspberry Pi 2GB RAM - PI-Hole (DNS) </li>
+  <li>ISP router - internet connection</li>
+  <li>Mini PC HP (Intel Core i3, 8GB, 500GB) witch Proxmox :
+  PfSense (vm) - router and firewall
+  
+  Windows Server 2016 (vm) - AD, DHCP, DNS
+  
+  Kali Linux (vm) - Try Hack Me challenges
+  
+  Linux Server (vm) - Docker
+  
+  Zabbix (container) - network monitoring
+  
+  Suricata (container) - intrusion detection 
+  </li>
+  <li>Windows 10 Pro  - main machine for everyday work 
+  <li>Raspberry PI 8 GB - Ubuntu Server and CasaOS - home   
+  <li>Raspberry PI 2 GB - Ubuntu Server and Nessus - vulnerability management
+  <li>Tp Link TL-SG10E - logical network segmentation (VLANs)
 </ul>
