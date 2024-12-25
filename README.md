@@ -45,10 +45,10 @@ Acts as the gateway to the internet and the first layer of protection for the ho
   - **Role:** Docker host for containerized applications.  
   - **Containers include:**  
     - **Zabbix:**  
-      - **Tag:** `Monitoring`  
+      `Monitoring`  
       - **Role:** Network and system monitoring.  
     - **Suricata:**  
-      - **Tag:** `IDS` `Security`  
+      `IDS` `Security`  
       - **Role:** Intrusion Detection System (IDS).  
 
 ---
